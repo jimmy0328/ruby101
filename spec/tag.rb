@@ -1,0 +1,13 @@
+class Tag
+  attr_reader :count
+
+  def initialize
+    @count = 0
+  end
+
+  def add
+   @count += 1
+  end
+
+
+end
